@@ -140,6 +140,8 @@ void runAppendRow() {
   // A return core of zero means everything worked
   if (returnCode == 0) {
     digitalWrite(outputPin, HIGH);
+    delay(500);
+    digitalWrite(outputPin, LOW);
   }
 
   // Read and print the error message
