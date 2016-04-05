@@ -77,7 +77,7 @@ void loop() {
   {
     digitalWrite(ledPin, HIGH);
   }
-  // wait 5 seconds
+  // wait 50 mseconds
   delay(50);
   digitalWrite(ledPin, LOW);
 }
