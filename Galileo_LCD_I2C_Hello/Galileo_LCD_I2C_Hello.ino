@@ -1,3 +1,14 @@
+/*
+ * 
+ * Galileo_LCD_I2C_Hello.ino
+ * 
+ * This sketch is used to demonstrate some how data can be
+ * exchanged between the Linux side and the Arduino side
+ * of the Arduino Galileo Gen 2.
+ * 
+ * Boot the Galileo using the full Yocto OS from the uSD card.
+ */
+
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 
