@@ -1,3 +1,25 @@
+/*
+ * 
+ * Galileo_LCD_I2C_cpu_temp.ino
+ * 
+ * This sketch is used to demonstrate some how data can be
+ * exchanged between the Linux side and the Arduino side
+ * of the Arduino Galileo Gen 2.
+ * 
+ * The sketch also shows how a common 16x2 LCD screen can 
+ * be used with the Galileo.
+ * 
+ * Boot the Galileo using the full Yocto OS from the uSD card.
+ * Connect and LCD screen via the I2C backpack. The wirings are:
+ *
+ * Backpack  |  Arduino
+ * --------------------
+ *     GND   |   GND
+ *     Vcc   |   5V
+ *     SDA   |   A4
+ *     SCL   |   A5
+ */
+
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 

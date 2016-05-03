@@ -1,3 +1,16 @@
+
+/*
+ * 
+ * Galileo_FTOLED_demo.ino
+ * 
+ * This sketch is used to demonstrate the use of the FTOLED
+ * display with the Galileo Gen 2
+ * 
+ * Boot the Galileo using the full Yocto OS from the uSD card.
+ * Connect the screen to the Galileo as per the setup instructions
+ * at txplo.re/1TzBDnV
+ */
+
 #include <SPI.h>
 #include <SD.h>
 #include <FTOLED.h>
